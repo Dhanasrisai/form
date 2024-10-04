@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+        select{
+            padding-left: 50px;
+            padding-right: 30px;
+        }
+
+        form{
+background-color:burlywood;
+margin-left: 12cm;
+margin-right: 12cm;
+margin-top: 20px;
+margin-bottom: 10px;
+padding-top: 20px;
+padding-bottom: 20px;
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+
+        }
+
+        .name{
+            text-align: left;
+            padding-left: 22px;
+
+        }
+
+        .n input,select,textarea{
+            border-radius: 2%;
+            border: 2px;
+            border-style: solid;
+            padding: 10px;
+            display: block;
+            width: 90%;
+            
+            font-family: 'Times New Roman', Times, serif;
+        }
+button{
+    width: 90%;
+    margin-top: 30px;
+    margin-bottom: 50px;
+    margin-right: 20px;
+    border-radius: 2%;
+    border: 2%;
+    border-style: solid;
+   background-color:chocolate;
+    
+}
+    </style>
+</head>
+<body bgcolor="">
+
+<form class="name">
+
+    <div class="n">
+        <label class="labs"> Name</label>
+<input type="text" placeholder="enter your name" class="text">
+    </div>
+
+    <div class="n">
+<br>
+<label class="l"> Email</label>
+
+<input type="email" placeholder="Enter your email">
+</div>
+
+<div class="n">
+<br>
+<label class="la"> Age</label>
+<input type="text" placeholder="Enter Your Age">
+</div>
+
+
+<div class="n">
+    <br>
+    <label class="lab">
+        which option is best describes you?
+    </label>
+
+
+<select>
+    <option> choose one </option>
+    <option>Student</option>
+    <option>Inter</option>
+    <option>Exprience</option>
+    <option>Other</option>
+</select>
+</div>
+</div>
+<br>
+
+    <legend class=""> Would you recommend to your friend?<br>
+        <input type="radio" name="Y">Yes<br>
+        <input type="radio" name="Y">No<br>
+        <input type="radio" name="Y">Maybe
+    </legend>
+    <br>
+    
+    <legend class=""> Language and Frameworks know<br>
+        <input type="checkbox" name="Y">JAVA<br>
+        <input type="checkbox" name="Y">C<br>
+        <input type="checkbox" name="Y">PYTHON<br>
+        <input type="checkbox" name="Y">C++<br>
+        <input type="checkbox" name="Y">C#<br>
+        <input type="checkbox" name="Y">Javascript<br>
+        <input type="checkbox" name="Y">React<br>
+        <input type="checkbox" name="Y">Angular<br>
+        <input type="checkbox" name="Y">Spring<br>
+    </legend>
+<br>
+
+    Any comments or Suggestion
+    
+    <textarea name="comment" class="n">
+    
+    </textarea>
+    <button type="submit">Submit</button>
+
+
+
+</form>
+
+</body>
+</html>
